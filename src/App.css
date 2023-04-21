@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,126,177,1) 56%, rgba(97,160,172,1) 89%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-center {
+  font-size: x-large;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.container {
+  padding: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-weight: 900;
 }
+h2 {
+  font-weight: 700;
+}
+
+.container-card {
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+  border: 2px solid #eee; 
+  color: black;
+  opacity: .70;
+
+}
+
+.card-title-about {
+  font-weight: 800;
+  font-size: 30px;
+  color: black;
+  
+
+}
+
+.card-container1, .card-container2, .card-container3 {
+  box-shadow: 10px 10px;
+  font-weight: 500;
+  opacity: .70;
+}
+
+.card-title1, .card-title2, .card-title3 {
+  font-weight: 800;
+}
+
+.container-grid {
+  text-align: center;
+  font-size: large;
+  border: 2px solid #26406a; 
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+  transition: all .3s ease-in-out;
+}
+
+
+.quote-container p {
+  font-size: clamp(23px, 4vw, 26px);
+  font-weight: 700;
+  color: white;
+}
+
+
+.container-grid.card-title h5 {
+  font-size: large;
+}
+
+
